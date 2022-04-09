@@ -1,0 +1,2 @@
+target1-controller ansible_host=192.168.56.16 ansible_user=vagrant 
+target2-controller ansible_host=192.168.56.17 ansible_user=vagrant

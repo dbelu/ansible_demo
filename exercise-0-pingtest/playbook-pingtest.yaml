@@ -1,0 +1,8 @@
+- 
+  name: Copy files to target servers
+  hosts: all
+  tasks:
+    - name: Copy file
+      copy:
+        src: /home/vagrant/test-project/ansible_was_here
+        dest: /home/vagrant/ansible_was_here
